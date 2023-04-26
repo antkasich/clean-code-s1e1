@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -10,14 +10,14 @@ body {
   display: block;
   text-align: right;
 }
-.header___img {
+.header__img {
   width: 100%;
 }
 .header .more-inf {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
     text-align: center;
@@ -39,16 +39,16 @@ body {
 }
 #in-complete-tasks,
 #completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
-.completed-tasks___task,
-.in-complete-tasks___task {
-  list-style:none;
+.completed-tasks__task,
+.in-complete-tasks__task {
+  list-style: none;
 }
 .input,
 .button {
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -63,7 +63,7 @@ body {
   color: #3a3a3a;
 }
 /* Heading */
-.section___title {
+.section__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -89,7 +89,7 @@ body {
 }
 
 /* New Task */
-.section-add .section___title {
+.section-add .section__title {
   display: block;
   margin: 0 0 20px;
 }
@@ -98,8 +98,8 @@ body {
 }
 
 /* Task list */
-.completed-tasks___task,
-.in-complete-tasks___task  {
+.completed-tasks__task,
+.in-complete-tasks__task  {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -107,24 +107,24 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.completed-tasks___task > *,
-.in-complete-tasks___task > * {
+.completed-tasks__task > *,
+.in-complete-tasks__task > * {
   vertical-align: middle;
 }
 
-.completed-tasks___task > .input[type="checkbox"],
-.in-complete-tasks___task > .input[type="checkbox"] {
+.completed-tasks__task > .input[type="checkbox"],
+.in-complete-tasks__task > .input[type="checkbox"] {
   margin: 0 10px;
 }
-.completed-tasks___task > .task,
-.in-complete-tasks___task > .task {
+.completed-tasks__task > .task,
+.in-complete-tasks__task > .task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.completed-tasks___task > .input[type="text"],
-.in-complete-tasks___task > .input[type="text"] {
+.completed-tasks__task > .input[type="text"],
+.in-complete-tasks__task > .input[type="text"] {
   width: 226px;
 }
 .delete-img {
@@ -144,17 +144,17 @@ body {
 
 /* Edit Task */
 .input[type=text] {
-  display:none;
+  display: none;
 }
 
 .edit-mode .input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px;
 }
 
 .edit-mode .task {
-  display:none;
+  display: none;
 }
 .input#new-task {
-  display:block;
+  display: block;
 }
