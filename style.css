@@ -42,7 +42,7 @@
   margin: 0;
   padding: 0px;
 }
-.completed-tasks__task,
+.completed-task,
 .in-complete-tasks__task {
   list-style: none;
 }
@@ -98,7 +98,7 @@
 }
 
 /* Task list */
-.completed-tasks__task,
+.completed-task,
 .in-complete-tasks__task  {
   overflow: hidden;
   padding: 20px 0;
@@ -107,23 +107,23 @@
   justify-content: space-between;
   align-items: center;
 }
-.completed-tasks__task > *,
+.completed-task > *,
 .in-complete-tasks__task > * {
   vertical-align: middle;
 }
 
-.completed-tasks__task > .input[type="checkbox"],
+.completed-task > .input[type="checkbox"],
 .in-complete-tasks__task > .input[type="checkbox"] {
   margin: 0 10px;
 }
-.completed-tasks__task > .task,
+.completed-task > .task,
 .in-complete-tasks__task > .task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.completed-tasks__task > .input[type="text"],
+.completed-task > .input[type="text"],
 .in-complete-tasks__task > .input[type="text"] {
   width: 226px;
 }
